@@ -1,0 +1,7 @@
+Z:\SIMSystem\DAL\bin\Debug\DAL.dll
+Z:\SIMSystem\DAL\bin\Debug\DAL.pdb
+Z:\SIMSystem\DAL\bin\Debug\Model.dll
+Z:\SIMSystem\DAL\bin\Debug\Model.pdb
+Z:\SIMSystem\DAL\obj\Debug\ResolveAssemblyReference.cache
+Z:\SIMSystem\DAL\obj\Debug\DAL.dll
+Z:\SIMSystem\DAL\obj\Debug\DAL.pdb

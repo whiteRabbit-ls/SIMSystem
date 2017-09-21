@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMSystem", "SIMSystem\SIMSystem.csproj", "{751EB794-1317-464C-8671-FEC0787A8C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F2FE49B0-5CE0-4FE7-87E5-3CE84455228F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{7F1801E4-725B-4C32-A9A8-215C027CAA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{DD74129E-9B54-42D6-8216-9916315BA71B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{751EB794-1317-464C-8671-FEC0787A8C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751EB794-1317-464C-8671-FEC0787A8C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751EB794-1317-464C-8671-FEC0787A8C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751EB794-1317-464C-8671-FEC0787A8C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FE49B0-5CE0-4FE7-87E5-3CE84455228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FE49B0-5CE0-4FE7-87E5-3CE84455228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FE49B0-5CE0-4FE7-87E5-3CE84455228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FE49B0-5CE0-4FE7-87E5-3CE84455228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1801E4-725B-4C32-A9A8-215C027CAA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1801E4-725B-4C32-A9A8-215C027CAA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1801E4-725B-4C32-A9A8-215C027CAA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1801E4-725B-4C32-A9A8-215C027CAA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD74129E-9B54-42D6-8216-9916315BA71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD74129E-9B54-42D6-8216-9916315BA71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD74129E-9B54-42D6-8216-9916315BA71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD74129E-9B54-42D6-8216-9916315BA71B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

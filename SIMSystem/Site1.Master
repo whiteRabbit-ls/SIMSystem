@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SIMSystem.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style3
+        {
+            width: 131px;
+            height: 27px;
+        }
+        .style4
+        {
+            height: 27px;
+            width: 484px;
+        }
+        .style5
+        {
+            height: 79px;
+        }
+        </style>
+</head>
+<body style="height: 646px">
+    <form id="form1" runat="server">
+    <div>
+            <h1 align="center">学籍信息管理系统</h1>
+            <hr />
+            <h4>用户名：<asp:Label ID="Label2" runat="server"></asp:Label>&nbsp&nbsp&nbsp&nbsp 当前时间：<%=DateTime.Now.ToShortTimeString().ToString() %></h4>
+        <table style="width: 100%; height: 415px;">
+            <tr>
+                <td class="style3" align="center" 
+                    style="border-style: groove hidden groove groove">
+                   
+                    <asp:Menu ID="Menu1" runat="server">
+                        <Items>
+                            <asp:MenuItem Text="首页" Value="首页" NavigateUrl="~/Index.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="用户信息" Value="用户信息" NavigateUrl="~/WebPro/AdminList.aspx"></asp:MenuItem>
+                            <asp:MenuItem Selectable="False" Text="学籍信息" Value="学籍信息">
+                                <asp:MenuItem NavigateUrl="~/WebPro/List.aspx" Text="全部学生" Value="全部学生">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/WebPro/ManagerS.aspx" Text="指定学生" Value="指定学生">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/WebPro/ManagerNEW.aspx" Text="新增学籍记录" 
+                                    Value="新增学籍记录"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Selectable="False" Text="成绩信息" Value="成绩信息">
+                                <asp:MenuItem NavigateUrl="~/WebPro/GradeList.aspx" Text="查看成绩" Value="查看成绩">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/WebPro/GradeAdd.aspx" Text="添加成绩" Value="添加成绩">
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="系统日志" Value="系统日志" 
+                                NavigateUrl="~/WebPro/SystemLogList.aspx"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td class="style4" style="border-style: groove">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p style="width: 627px">
+                        </p>
+        </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="style5" colspan="2" align="center" bgcolor="White">
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <br />
+                    版权所有：SIMSystem小组成员 Corpyright © 2017
+                </td>
+            </tr>
+            </table>
+    </div>
+    </form>
+</body>
+</html>

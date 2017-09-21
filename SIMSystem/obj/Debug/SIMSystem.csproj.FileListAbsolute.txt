@@ -1,0 +1,11 @@
+Z:\SIMSystem\SIMSystem\bin\SIMSystem.dll
+Z:\SIMSystem\SIMSystem\bin\SIMSystem.pdb
+Z:\SIMSystem\SIMSystem\obj\Debug\ResolveAssemblyReference.cache
+Z:\SIMSystem\SIMSystem\obj\Debug\SIMSystem.dll
+Z:\SIMSystem\SIMSystem\obj\Debug\SIMSystem.pdb
+Z:\SIMSystem\SIMSystem\bin\BLL.dll
+Z:\SIMSystem\SIMSystem\bin\DAL.dll
+Z:\SIMSystem\SIMSystem\bin\Model.dll
+Z:\SIMSystem\SIMSystem\bin\BLL.pdb
+Z:\SIMSystem\SIMSystem\bin\DAL.pdb
+Z:\SIMSystem\SIMSystem\bin\Model.pdb
